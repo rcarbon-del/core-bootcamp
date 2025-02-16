@@ -1,0 +1,12 @@
+{
+    "name": "ror",
+    "description": "ror hahah.",
+    "symbol": "NFT",
+    "image": "https://i.imgur.com/pz54W57.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue"
+        }
+    ]
+}

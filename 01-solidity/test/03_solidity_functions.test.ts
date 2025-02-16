@@ -15,26 +15,26 @@ describe("SolidityFunctions", function () {
     );
     const INITIAL_BALANCE = 1_000_000;
 
-    const ctcSolidityFunctions = await SolidityFunctions.deploy(
+    const `ctcSolidityFunctions` = await SolidityFunctions.deploy(
       INITIAL_BALANCE
     );
 
-    return { ctcSolidityFunctions, account1 };
+    return { `ctcSolidityFunctions`, account1 };
   }
 
   describe("Deployment", function () {
     it("should call constructor", async function () {
-      const { ctcSolidityFunctions } = await loadFixture(deploy);
+      const { `ctcSolidityFunctions` } = await loadFixture(deploy);
 
-      expect(ctcSolidityFunctions).not.to.be.undefined;
+      expect(`ctcSolidityFunctions`).not.to.be.undefined;
     });
 
     it("should add balance", async function () {
-      const { ctcSolidityFunctions } = await loadFixture(deploy);
+      const { `ctcSolidityFunctions` } = await loadFixture(deploy);
 
-      await ctcSolidityFunctions.addBalance(1_000_000);
+      await `ctcSolidityFunctions`.calculator(1,25_000);
 
-      const balance = await ctcSolidityFunctions.getBalance();
+      const balance = await `ctcSolidityFunctions`.getBalance();
       console.log("balance is now ", balance);
     });
   });

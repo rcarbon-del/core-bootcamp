@@ -11,6 +11,7 @@ contract SolidityDataTypes {
         balance = 10000;
         owner = address(0);
         accounts["theblokc"] = 999999;
+        accounts["ror"] = 143;
 
         // TODO: print the values above using console.log
         console.log("balance is ", balance);
@@ -18,5 +19,6 @@ contract SolidityDataTypes {
         console.log("owner is ", owner);
 
         console.log("account is ", accounts["theblokc"]);
+        console.log("account is ", accounts["ror"]);
     }
 }

@@ -56,3 +56,4 @@ For change request, please clone and submit pull-request. Or e-mail at mark@theb
 
 ## Transactions
 - 02-hardhat : 0x4a4cFA027f5523b64BAA8637577b89A8e2628F06
+- 03-erc20 : 0x5C383eb10c5b58e00b4949161B38A5CC5976C039
