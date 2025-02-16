@@ -1,12 +1,12 @@
 {
-    "name": "zzz",
-    "description": "ror sleep hahah.",
+    "name": "grass",
+    "description": "ror touch hahah.",
     "symbol": "NFT",
-    "image": "https://i.imgur.com/pz54W57.png",
+    "image": "https://i.imgur.com/SJLDfd8.png",
     "attributes": [
         {
             "trait_type": "Background",
-            "value": "Blue"
+            "value": "Green"
         }
     ]
 }
